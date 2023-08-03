@@ -139,11 +139,9 @@ const Game = () => {
   useEffect(() => {
     const gameRef = ref(database, `game`)
     const onChildaddedCallback = snapshot => {
-      console.log('added', snapshot.val())
       setGameStatus(snapshot.val())
     }
     const onValueCallback = snapshot => {
-      console.log('update', snapshot.val())
       setGameStatus(snapshot.val())
     }
 
