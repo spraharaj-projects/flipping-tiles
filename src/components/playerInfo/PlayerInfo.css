@@ -4,8 +4,9 @@
   left: 0;
   padding: 1em;
   display: flex;
+  flex-direction: column;
   gap: 0.5em;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 label {
