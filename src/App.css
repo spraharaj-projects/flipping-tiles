@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    #64beff -50%,
+    #6e96ff 69.71%,
+    #2a65ff 150%
+  );
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,15 @@
+.timer-container {
+  background-color: rgb(125, 29, 144);
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 5px solid black;
+}
+
+.timer {
+  font-size: 24px;
+  color: white;
+}

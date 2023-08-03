@@ -1,0 +1,15 @@
+.Tile {
+  cursor: pointer;
+}
+
+.small-grid-cell {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  z-index: 1;
+}
+
+.Tile_sprite {
+  font-size: 12px;
+  user-select: none;
+}

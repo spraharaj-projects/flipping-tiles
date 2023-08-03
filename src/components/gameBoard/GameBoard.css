@@ -1,0 +1,38 @@
+.game-container {
+  position: relative;
+  width: 240px;
+  height: 208px;
+  background: url(../../assets/images/grass-map.png) no-repeat no-repeat;
+  transform: scale(3);
+  image-rendering: pixelated;
+}
+
+.checkpoint1 {
+  position: absolute;
+  top: 57px;
+  left: 80px;
+  height: 8px;
+  width: 8px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.checkpoint2 {
+  position: absolute;
+  top: 73px;
+  left: 153px;
+  height: 8px;
+  width: 8px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.checkpoint3 {
+  position: absolute;
+  top: 132px;
+  left: 132px;
+  height: 8px;
+  width: 8px;
+  background-color: green;
+  border-radius: 50%;
+}
