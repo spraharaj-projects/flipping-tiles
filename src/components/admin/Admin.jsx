@@ -15,7 +15,7 @@ const Admin = () => {
       const tilesRef = ref(database, `tiles`)
       const tilesObj = generateTiles()
       set(tilesRef, tilesObj)
-      set(gameRef, 10)
+      set(gameRef, 120)
     } catch (error) {
       console.log(error)
     }
